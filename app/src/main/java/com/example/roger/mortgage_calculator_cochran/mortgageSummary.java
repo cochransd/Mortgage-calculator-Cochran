@@ -39,6 +39,15 @@ public class mortgageSummary extends AppCompatActivity {
     public TextView mortgageTV9;
     public String message9;
 
+    public TextView mortgageTV10;
+    public String message10;
+
+    public TextView mortgageTV11;
+    public String message11;
+
+    public TextView mortgageTV12;
+    public String message12;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,51 +69,52 @@ public class mortgageSummary extends AppCompatActivity {
 
         message1 = extras.getString("EXTRA_MESSAGE1");
         mortgageTV1 = (TextView)findViewById(R.id.smtv1);
-        //mortgageTV1.setText( message1 );
+        mortgageTV1.setText( message1 );
 
         message2 = extras.getString("EXTRA_MESSAGE2");
         mortgageTV2 = (TextView)findViewById(R.id.smtv2);
-        //mortgageTV2.setText( message2 );
+        mortgageTV2.setText( message2 );
 
         message3 = extras.getString("EXTRA_MESSAGE3");
         mortgageTV3 = (TextView)findViewById(R.id.smtv3);
-        //mortgageTV3.setText( message3 );
+        mortgageTV3.setText( message3 );
 
-        message4 = extras.getString("EXTRA_MESSAGE4");
+        message4 = extras.getString("EXTRA_MESSAGE1");
         mortgageTV4 = (TextView)findViewById(R.id.smtv4);
-        //mortgageTV4.setText( message4 );
+        mortgageTV4.setText( message4 );
 
-        message5 = extras.getString("EXTRA_MESSAGE5");
+        message5 = extras.getString("EXTRA_MESSAGE1");
         mortgageTV5 = (TextView)findViewById(R.id.smtv5);
-        //mortgageTV5.setText( message5 );
+        mortgageTV5.setText( message5 );
 
         message6 = extras.getString("EXTRA_MESSAGE6");
         mortgageTV6 = (TextView)findViewById(R.id.smtv6);
-        //mortgageTV6.setText( message6 );
+        mortgageTV6.setText( message6 );
 
         message7 = extras.getString("EXTRA_MESSAGE7");
         mortgageTV7 = (TextView)findViewById(R.id.smtv7);
-        //mortgageTV7.setText( message7 );
+        mortgageTV7.setText( message7 );
 
         message8 = extras.getString("EXTRA_MESSAGE8");
         mortgageTV8 = (TextView)findViewById(R.id.smtv8);
-        //mortgageTV8.setText( message8 );
+        mortgageTV8.setText( message8 );
 
         message9 = extras.getString("EXTRA_MESSAGE9");
         mortgageTV9 = (TextView)findViewById(R.id.smtv9);
-        //mortgageTV9.setText( message9 );
+        mortgageTV9.setText( message9 );
 
-        int one = Integer.parseInt( message1 );
-        int two = Integer.parseInt( message2 );
-        int three = Integer.parseInt( message3 );
-        int four = Integer.parseInt( message4 );
-        int five = Integer.parseInt( message5 );
-        int six = Integer.parseInt( message6 );
-        int seven = Integer.parseInt( message7 );
-        int eight  = Integer.parseInt( message8 );
-        int nine = Integer.parseInt( message9 );
+        message10 = extras.getString("EXTRA_MESSAGE1");
+        mortgageTV10 = (TextView)findViewById(R.id.smtv10);
+        mortgageTV10.setText( message10 );
 
-        message1 = String.valueOf(one / four);
+        message11 = extras.getString("EXTRA_MESSAGE2");
+        mortgageTV11 = (TextView)findViewById(R.id.smtv11);
+        mortgageTV11.setText( message11 );
+
+        message12 = extras.getString("EXTRA_MESSAGE3");
+        mortgageTV12 = (TextView)findViewById(R.id.smtv12);
+        mortgageTV12.setText( message12 );
+
 
         //ViewGroup layout = (ViewGroup) findViewById(R.id.activity_mortgage_summary);
 

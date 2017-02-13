@@ -75,7 +75,7 @@ public class paymentSummary extends AppCompatActivity {
         paymentTV4.setText( message4 );
 
 
-        message5 = extras.getString("EXTRA_MESSAGE5");
+        message5 = extras.getString("EXTRA_MESSAGE2");
         paymentTV5 = (TextView)findViewById(R.id.sptv5);
         paymentTV5.setText( message5 );
 
