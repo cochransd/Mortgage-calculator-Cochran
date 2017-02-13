@@ -13,4 +13,205 @@
     tools:context="com.example.roger.mortgage_calculator_cochran.mortgageSummary"
     tools:showIn="@layout/activity_mortgage_summary">
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="182dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Payment with PMI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv1"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="x PMI Payments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv3"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Loan pay-off date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv5"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Monthly Tax Paid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv7"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv7"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Monthly Home Insurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv9"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv9"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Annual Payment Ammount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv11"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv11"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="After x Months"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv2"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Total PMI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv4"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Total Interest Paid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv6"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv6"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Total Tax Paid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv8"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv8"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Total Home Insurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv10"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv10"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Total of x Payments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mtv12"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="blank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/smtv12"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+
 </RelativeLayout>

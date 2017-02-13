@@ -13,4 +13,9 @@
     tools:context="com.example.roger.mortgage_calculator_cochran.paymentSummary"
     tools:showIn="@layout/activity_payment_summary">
 
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </GridLayout>
 </RelativeLayout>

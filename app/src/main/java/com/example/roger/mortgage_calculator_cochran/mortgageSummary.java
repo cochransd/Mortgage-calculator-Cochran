@@ -12,6 +12,9 @@ import android.widget.TextView;
 
 public class mortgageSummary extends AppCompatActivity {
 
+    public TextView mortgageTV;
+    public String message;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,15 +32,25 @@ public class mortgageSummary extends AppCompatActivity {
         });
 
         Intent intent = getIntent();
-        String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
-        TextView textView = new TextView(this);
-        textView.setTextSize(40);
-        textView.setText(message);
+        Bundle extras = intent.getExtras();
 
-        ViewGroup layout = (ViewGroup) findViewById(R.id.activity_mortgage_summary);
-        layout.addView(textView);
+        message = (String)(extras.getString(MainActivity.EXTRA_MESSAGE));
+
+        mortgageTV = (TextView)findViewById(R.id.smtv1);
+
+        mortgageTV.setText( message );
+
+        //ViewGroup layout = (ViewGroup) findViewById(R.id.activity_mortgage_summary);
+
+
     }
 
+    public void test(View view){
+
+        mortgageTV.setText(message);
+
+
+    }
 
 }
 
