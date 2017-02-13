@@ -27,7 +27,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:ems="10"
 
         android:id="@+id/editText1"
@@ -40,7 +40,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
+        android:inputType="number"
 
         android:ems="10"
         android:layout_below="@+id/editText1"
@@ -332,15 +332,15 @@
             android:layout_height="match_parent" />
     </TableLayout>
 
-    <Button
-        android:text="Button"
+    <RadioButton
+        android:text="RadioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText1"
+        android:layout_below="@+id/editText2"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginRight="29dp"
-        android:layout_marginEnd="29dp"
-        android:id="@+id/button3" />
+        android:layout_marginRight="60dp"
+        android:layout_marginEnd="60dp"
+        android:id="@+id/radioButton" />
 
 </RelativeLayout>
