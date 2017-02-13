@@ -17,17 +17,113 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="150dp"
             android:layout_height="match_parent"
-            android:layout_weight="1.28"></LinearLayout>
+            android:layout_weight="1.28">
+
+            <TextView
+                android:text="Monthly Payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ptv1"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sptv1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Monthly Pay-off Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ptv3"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sptv3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Total Interest Paid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ptv5"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sptv5"
+                android:textAlignment="center" />
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="184dp"
-            android:layout_height="match_parent"></LinearLayout>
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Bi-Weekly Payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ptv2"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sptv2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Bi-weekly Pay-off Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ptv4"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sptv4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Total Interest Paid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ptv6"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sptv6"
+                android:textAlignment="center" />
+
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
